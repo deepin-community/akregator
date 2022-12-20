@@ -1,0 +1,6 @@
+# private library
+akregator: package-name-doesnt-match-sonames
+# private library
+akregator: no-symbols-control-file
+# Grantlee templates
+akregator: package-contains-documentation-outside-usr-share-doc usr/share/akregator/grantleetheme/*

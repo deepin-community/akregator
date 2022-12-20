@@ -1,0 +1,2 @@
+rm_conffile /etc/xdg/akregator.categories 4:20.04.1-2~
+rm_conffile /etc/xdg/akregator.renamecategories 4:20.04.1-2~

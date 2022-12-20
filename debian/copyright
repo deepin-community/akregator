@@ -1,0 +1,180 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: akregator
+Upstream-Contact: kde-devel@kde.org
+Source: https://invent.kde.org/pim/akregator
+
+Files: *
+Copyright: 2004-2018, Akregator authors
+           2006, Canonical Ltd, and Rosetta Contributors 2006
+           1999, Christian Tismer
+           2000-2004, Cornelius Schumacher <schumacher@kde.org>
+           2018, Daniel Vrátil <dvratil@kde.org>
+           2008, Didier Hoarau
+           2007, Frank Osterfeld <frank.osterfeld@kdemail.net>
+           2004-2009, Frank Osterfeld <osterfeld@kde.org>
+           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+           1989-1991, Free Software Foundation, Inc
+           2001-2003, Frerich Raabe <raabe@kde.org>
+           2009, Jonathan Marten <jjm@keelhaul.me.uk>
+           Mark Kretschmann
+           2004, Mark Kretschmann <kretschmann@kde.org>
+           2015-2018, Montel Laurent <montel@kde.org>
+           1998-1999, Preston Brown <pbrown@kde.org>
+           2010, Rosetta Contributors and Canonical Ltd 2010
+           2004, Sashmit Bhaduri <smt@vfemail.net>
+           2004-2005, Stanislav Karchebny <Stanislav.Karchebny@kdemail.net>
+           1991-1995, Stichting Mathematisch Centrum, Amsterdam
+           2004, Teemu Rytilahti <tpr@d5k.net>
+           2004-2018, This_file_is_part_of_KDE
+           2004-2007, the Akregator authors
+License: GPL-2+
+
+Files: doc/index.docbook
+       po/ca/docs/akregator/index.docbook
+       po/de/docs/*
+       po/es/docs/*
+       po/et/docs/*
+       po/it/docs/*
+       po/nl/docs/*
+       po/pt/docs/*
+       po/pt_BR/docs/*
+       po/sv/docs/*
+       po/uk/docs/akregator/index.docbook
+Copyright: 2006, &Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail; </para>
+           2004-2010, Akregator authors
+           2004-2010, Akregators upphovsmän </para>
+           2004-2010, Die Akregator-Autoren </para>
+           2006, Frank Osterfeld <email
+           2004-2010, auteurs van Akregator </para>
+License: GFDL-1.2+
+
+Files: src/articlematcher.cpp
+       src/articlematcher.h
+Copyright: 2005, Frank Osterfeld <osterfeld@kde.org>
+           2004-2005, Frerich Raabe <raabe@kde.org>
+License: BSD-2-clause
+
+Files: plugins/mk4storage/metakit/README
+       plugins/mk4storage/metakit/license.terms
+Copyright: 1996-2005, Jean-Claude Wippler
+License: Expat
+
+Files: src/data/org.kde.akregator.appdata.xml
+Copyright: KDE e.V.
+License: CC0-1.0
+
+Files: debian/*
+Copyright: 2009, Sune Vuorela <debian@pusling.com>
+License: LGPL-2+
+
+Files: po/uk/akregator.po
+Copyright: 2004-2018, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: export/akregatorstorageexporter.cpp
+Copyright: 2009, Frank Osterfeld <osterfeld@kde.org>
+License: LGPL-2+
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0-1.0
+ CC0 1.0 Universal
+ .
+ CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+ LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+ ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+ INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+ REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+ PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+ THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+ HEREUNDER.
+ .
+ The complete text of the Creative Commons 0 1.0 Universal
+ can be found in `/usr/share/common-licenses/CC0-1.0'.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ The complete text of the GNU Free Documentation License version 1.2
+ can be found in `/usr/share/common-licenses/GFDL-1.2'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.
