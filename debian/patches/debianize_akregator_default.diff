@@ -1,0 +1,32 @@
+Author: Ana Beatriz Guerrero Lopez <ana@debian.org>
+Author: Pino Toscano <pino@debian.org>
+Description: add a few Debian feeds to akregator
+ Include Planet Debian and Debian News as default in akregator
+Forwarded: not-needed
+Origin: vendor
+Last-Update: 2017-12-26
+
+--- a/src/akregator_part.cpp
++++ b/src/akregator_part.cpp
+@@ -138,6 +138,21 @@ static QDomDocument createDefaultFeedLis
+     spanishKde.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("https://planet.kde-espana.org/atom.xml"));
+     spanishFolder.appendChild(spanishKde);
+ 
++    // Debian feed(s)
++    QDomElement debianFolder = doc.createElement(QStringLiteral("outline"));
++    debianFolder.setAttribute(QStringLiteral("text"), QStringLiteral("Debian"));
++    body.appendChild(debianFolder);
++
++    QDomElement pland = doc.createElement(QStringLiteral("outline"));
++    pland.setAttribute(QStringLiteral("text"), i18n("Planet Debian"));
++    pland.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://planet.debian.org/rss20.xml"));
++    debianFolder.appendChild(pland);
++
++    QDomElement dtimes = doc.createElement(QStringLiteral("outline"));
++    dtimes.setAttribute(QStringLiteral("text"), i18n("Debian News"));
++    dtimes.setAttribute(QStringLiteral("xmlUrl"), QStringLiteral("http://www.debian.org/News/news"));
++    debianFolder.appendChild(dtimes);
++
+     return doc;
+ }
+ }
